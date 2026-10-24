@@ -1,0 +1,36 @@
+
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+dist-ssr/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local development files
+*.local
+
+# Test and coverage output
+coverage/
+
+# IDE files
+.idea/
+.vscode/
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
